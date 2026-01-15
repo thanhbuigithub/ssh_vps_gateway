@@ -69,7 +69,7 @@ if [[ "$GENERATE_KEY" =~ ^[Yy]$ ]]; then
 else
     echo "Skipping key generation."
     echo "Ensure you add your Public Key to: $AUTH_KEYS"
-# fi
+fi
 
 # # 3. Configure SSHD
 # # functionality: AllowTcpForwarding is required for -R.
